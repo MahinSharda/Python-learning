@@ -15,7 +15,7 @@ style = input("Enter 1,2 or 3: ").strip()
 
 def generate_bio(style):
     if style == "1":
-        return f"{emoji} {name} | {professsion} \n 🧠 {passion} \n {website}"
+        return f"{emoji} {name} | {profession} \n 🧠 {passion} \n {website}"
     elif style == "2":
         return f"{emoji} {name} \n {profession} 🧠 \n {passion} \n {website}🧠 "
     elif style == "3":
